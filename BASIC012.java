@@ -11,11 +11,11 @@
                 for (int j=0; j<arr.length; j++){
                     intArr[j]= Integer.parseInt(arr[j]);
                 }
-                System.out.println(logestSortedSequence(intArr));
+                System.out.println(longestSortedSequence(intArr));
 
             }
         }
-        public static int logestSortedSequence(int[] arr){
+        public static int longestSortedSequence(int[] arr){
             if (arr.length ==0){
                 return 0;
             }
